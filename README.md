@@ -4,6 +4,7 @@ Medi-Scan is a full-stack web application that enables patients to securely uplo
 It offers Gemini-based medical document summarization, medication reminders, timeline and log visualizations, and BMI-based health insights—all in a user-friendly interface.
 
 ⚙️ Features
+
   🧠 AI-powered medical report summarization (Gemini API)
   📄 Secure document upload to AWS S3
   📧 Email reminders with medication timing + food instructions
@@ -12,6 +13,7 @@ It offers Gemini-based medical document summarization, medication reminders, tim
   🔐 OTP verification and JWT-based authentication
 
 🛠 Tech Stack
+
   Frontend: Next.js 15, Tailwind CSS, TypeScript
   Backend: Node.js, Express, MongoDB Atlas
   Integrations: AWS S3, Gemini API, Nodemailer
@@ -19,12 +21,17 @@ It offers Gemini-based medical document summarization, medication reminders, tim
 🔧 Backend Setup
   cd backend
   npm install
+	
   =>Create a .env file with your credentials (see .env.example)
+	
   npm start
   
 💻 Frontend Setup
+
   cd frontend
   npm install
+	
   =>Create a .env.local file with:
   =>NEXT_PUBLIC_BACKEND_URL=your-backend-url
+	
   npm run dev
