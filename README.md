@@ -1,5 +1,4 @@
-🩺 Medi-Scan
-Medi-Scan is a full-stack web application that enables patients to securely upload, manage, and understand their medical records using AI. 
+🩺 Medi-Scan is a full-stack web application that enables patients to securely upload, manage, and understand their medical records using AI. 
 It offers Gemini-based medical document summarization, medication reminders, timeline and log visualizations, and BMI-based health insights—all in a user-friendly interface.
 
 ⚙️ Features
